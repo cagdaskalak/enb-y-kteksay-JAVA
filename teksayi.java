@@ -68,7 +68,7 @@ public class App {
          int sayi;
          Scanner giris = new Scanner(System.in);
          sayi = giris.nextInt();
-         System.out.print(tekDizi.get(sayi));
+         System.out.print("En Büyük Tek Sayı= " + tekDizi.get(sayi));
          
          }
          
